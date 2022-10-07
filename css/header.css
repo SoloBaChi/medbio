@@ -113,6 +113,9 @@ color:#D23B39;
 text-transform:uppercase;
 font-size:var(--xl-font)
 }
+.header-container h3{
+color:#67A3A2;
+}
 .header-container p{
 font-size:0.822rem;
 font-weight:500;

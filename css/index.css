@@ -18,7 +18,7 @@ margin-bottom:2.4rem;
 }
 .aboutus h3{
 font-weight:700;
-color:#D23B39;
+color:#67A3A2;
 font-size:var(--lg-font);
 
 }
@@ -36,7 +36,11 @@ margin-bottom:1.2rem;
 border-radius:6px;
 height:100%;
 }
+.header-container .btn-row>*:first-child,
 .aboutus .cta-btn{
+-webkit-animation:zoomout 2s infinite;
+-o-animation:zoomout 2s infinite;
+-moz-animation:zoomout 2s infinite;
 animation:zoomout 2s infinite;
 }
 @keyframes zoomout{
