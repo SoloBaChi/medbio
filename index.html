@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta http-equiv="refresh" content="10"/> -->
+	<title>MedBio</title>
+	<link href="./font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/index.css" rel="stylesheet">
+</head>
+<body>
+	<header class="header-wrapper index-page">
+	<div class="site-header">
+		<div class="navigation-container main-nav">
+		<div class="mobile-header-navicons">
+		<div class="codeblaze-logo">
+		<div class="image-container">
+		<a href="./index.html"><img src="./images/medbio-logo.svg" alt="company logo">
+		</a>
+		</div></div>
+		<div class="btn-container">
+		<div class="bar-btn">&#9776;</div>
+	    </div>
+	    </div>
+			<nav class="nav-wrapper">
+				<ul class="nav-menu">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="#aboutus">About</a></li>
+					<li><a href="#">My Records</a></li>
+					<li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- header contents -->
+		<div class="header-container">
+			<div class="float-left">
+				<h1>Health is Wealth</h1>
+				<small>keep your medical electronically..</small>
+				<h3>
+				Not Just Better Health Care,But Better Record 
+			    </h3>
+				<div>
+					<p>
+						<span class="medbio">MEDBIO</span> Helps in Documenting all your Health related issues for a Life time
+						<br>
+						Get all your Records in one place.
+					</p>
+				</div>
+				<div class="btn-row">
+				<a class="cta-btn" href="./signup.html">
+				 join now
+				</a>
+				<a class="cta-btn" href="./about.html">
+				 learn more
+				</a>
+			    </div>
+			</div>
+			<div class="float-right">
+				<div class="image-container">
+					<img src="./images/drug-record-img.svg">
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main>
+	<section class="aboutus" id="aboutus">
+		<h3>About Us</h3>
+		<div class="float-wrapper">
+			<div class="left">
+				<div class="image-container">
+					<img src="./images/health-record-img.svg" alt="health record">
+				</div>
+			</div>
+			<div class="right">
+				<p>
+					<span class="start-caption">ONE</span> of our goals is to provide an analytical and authenticated electronical health record of a citizen of any region, our target is to keep track of the users health details/medical reports starting from birth. With the aid of the app we assure that the bio data of the user is kept confidential and accurate as we tend to encourage hospitals to adopt this digital standard of health recording.
+				</p>
+				<p>
+					We equally try to curb, ameliorate and prevent the rate of occurrence of certain health issues like cancer. To achieve this, we actually looking at away of integrating cancer detection AI into our app which aids in predicting and notifying from previous health records, the user if he or she might likely develop cancer. The cancer detector AI will work perfectly if the user constantly makes use of the app for health check up and records.
+				</p>
+				<p>
+					The <span class="medbio">MEDBIO</span> project supports other functionality of which one is adopt me service, due to the fact that only registered, verified,authorized and practicing Doctors will have access to a user account,if given permission by the user. thus, only qaulified Doctors are given this permission inorder to help childless couple who wish to adopt a newly born baby within their vicinity, thereby reducing the number of kids at orphanage homes.
+				</p>
+				<p>
+				 Moreover, other features like, locating/tracking the nearest hospital within your locality would be implemented as well.
+				 <br>
+				 users can also view the highly rated hospital in terms of quality of their services.
+				</p>
+			</div>
+		</div>
+		<a class="cta-btn" href="./signup.html">
+				 join now
+		</a>
+	</section>
+</main>
+
+<footer class="site-footer">
+	 
+	 			<small class="copyright">&copy; <span id="updated-year"> </span> Powered Code Blaze Academy</small>
+	 		</div>
+	 	</div>
+	 </div>
+	</footer>
+    <script src="./js/header.js"></script>
+    <script>
+    	const updateYear = document.getElementById("updated-year");
+    	const date = new Date();
+    	updateYear.innerText += date.getFullYear();
+
+    </script>
+</body>
+</html>
