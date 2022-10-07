@@ -36,11 +36,40 @@ margin-bottom:1.2rem;
 border-radius:6px;
 height:100%;
 }
+.aboutus .cta-btn{
+animation:zoomout 2s infinite;
+}
+@keyframes zoomout{
+0%{
+transform:scale(0.9);
+}
+50%{
+transform:scale(1);
+}
+100%{
+transform:scale(0.9);
+}
+
+}
 .start-caption{
 color:#002C6C;
 font-weight:600;
 }
 
+
+
+
+
+/*===============================
+aboutus Record
+================================*/
+.aboutus.record{
+margin-top:4rem;
+}
+.aboutus.record p{
+font-size:var(--md-font);
+font-weight:500;
+}
 
 .site-footer{
 background:#010216;

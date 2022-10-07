@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta http-equiv="refresh" content="10"/> -->
+	<title>MedBio</title>
+	<link href="./font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/index.css" rel="stylesheet">
+</head>
+<body>
+	<header class="header-wrapper index-page">
+	<div class="site-header">
+		<div class="navigation-container main-nav">
+		<div class="mobile-header-navicons">
+		<div class="codeblaze-logo">
+		<div class="image-container">
+		<a href="./index.html"><img src="./images/medbio-logo.svg" alt="company logo">
+		</a>
+		</div></div>
+		<div class="btn-container">
+		<div class="bar-btn">&#9776;</div>
+	    </div>
+	    </div>
+			<nav class="nav-wrapper">
+				<ul class="nav-menu">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="#aboutus">About</a></li>
+					<li><a href="./record.html">My Records</a></li>
+					<li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- header contents -->
+		
+	</div>
+</header>
+
+<main>
+	<section class="aboutus record" id="aboutus">
+		<p>No Medical Records Yet !</p>
+	</section>
+</main>
+
+<footer class="site-footer">
+	 
+	 			<small class="copyright">&copy; <span id="updated-year"> </span> Powered Code Blaze Academy</small>
+	 		</div>
+	 	</div>
+	 </div>
+	</footer>
+    <script src="./js/header.js"></script>
+    <script>
+    	const updateYear = document.getElementById("updated-year");
+    	const date = new Date();
+    	updateYear.innerText += date.getFullYear();
+
+    </script>
+</body>
+</html>
